@@ -1,4 +1,6 @@
 # Homework Tracker
+![Screenshot](https://github.com/Kidus-berhanu/Angluar_project/blob/master/Screenshot%202024-02-13%20154538.png)
+
 
 Welcome to the Homework Tracker project! This application is designed to help students keep track of their homework assignments and deadlines efficiently. Built with Angular 17.1.3, it offers a user-friendly interface and real-time updates to ensure you never miss a deadline.
 
