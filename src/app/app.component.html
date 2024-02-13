@@ -1,0 +1,12 @@
+<div [style.color]="titleColor">
+  <h1>Dynamic Angular App </h1>
+</div>
+
+<div *ngFor="let section of sections">
+  <app-section
+    [title]="section.title"
+    [body]="section.body"
+    [color]="section.color"
+    (sectionClicked)="onSectionClicked($event)"
+  ></app-section>
+</div>
