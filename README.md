@@ -1,27 +1,48 @@
-# Hw
+# Homework Tracker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+Welcome to the Homework Tracker project! This application is designed to help students keep track of their homework assignments and deadlines efficiently. Built with Angular 17.1.3, it offers a user-friendly interface and real-time updates to ensure you never miss a deadline.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Prerequisites
 
-## Code scaffolding
+Before you begin, make sure you have the following installed:
+- Node.js (LTS version)
+- Angular CLI (17.1.3 or later)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Installation
 
-## Build
+1. Clone the repository to your local machine:
+   git clone  https://github.com/Kidus-berhanu/Angluar_project.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the project directory:
+   cd homework-tracker
+3. Install the necessary dependencies:
+   npm install
 
-## Running unit tests
+### Running the Development Server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To launch the app on a development server:
+ng serve
+Open a browser and navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+### Building the Project
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+For production build:
+ng build
+The build artifacts will be stored in the `dist/` directory.
 
-## Further help
+### Running Tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- To run unit tests via [Karma](https://karma-runner.github.io):
+  ng test
+
+- To run end-to-end tests:
+  ng e2e
+  Note: You need to first add a package that implements end-to-end testing capabilities.
+
+## Further Help
+
+Need more help? Check out the Angular CLI documentation:
+ng help
+Or visit the Angular CLI Overview and Command Reference page: https://angular.io/cli
